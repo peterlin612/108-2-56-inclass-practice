@@ -24,3 +24,29 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+install.packages(c("googlesheets4"))
+```
+```{r}
+install.packages(c("googlesheets4","tidyverse"))
+```
+```{r}
+library(googlesheets4)
+library(dplyr)
+library(lubridate)
+```
+```{r}
+a <- 2
+```
+
+
+```{r}
+a = 2 # = 與 <-同義
+```
+```{r}
+3 -> b
+```
+```{r}
+a
+```
+
