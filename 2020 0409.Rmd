@@ -77,4 +77,11 @@ my_age = `我的年紀`
 ```{r}
 my_age
 ```
+```{r}
+vnum1 = c(2,5)
+vnum2 = c(3,6)
+vnum3 = c(vnum1,vnum2)
+vnum4 = c(2,5,3,6)
+vnum5 = c(c(2,5),c(3,6))
+```
 

@@ -24,3 +24,64 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+install.packages(c("googlesheets4"))
+```
+```{r}
+install.packages(c("googlesheets4","tidyverse"))
+```
+```{r}
+library(googlesheets4)
+library(dplyr)
+library(lubridate)
+```
+```{r}
+a <- 2
+```
+
+
+```{r}
+a = 2 # = 與 <-同義
+```
+```{r}
+3 -> b
+```
+```{r}
+a
+```
+```{r}
+.aa = 15
+```
+
+
+```{r}
+My_total_credit=15
+```
+```{r}
+My_total_credit
+```
+A valid variable name consists of:
+
+letters, numbers and the dot (.) or underline (_) characters.
+
+A variable name starts with: 
+##a letter;or the dot not followed by a number.
+```{r}
+.aa
+```
+```{r}
+`我的年紀` = 19
+my_age = `我的年紀`
+```
+
+```{r}
+my_age
+```
+```{r}
+vnum1 = c(2,5)
+vnum2 = c(3,6)
+vnum3 = c(vnum1,vnum2)
+vnum4 = c(2,5,3,6)
+vnum5 = c(c(2,5),c(3,6))
+```
+
