@@ -124,5 +124,30 @@ GET("https://api.github.com/repos/peterlin612/108-2-56-inclass-practice/commits"
 ```{r}
 logi1 <- c(T,TRUE,F,FALSE,FALSE)
 ```
+```{r}
+logi1 <- c(T,TRUE,F,FALSE,FALSE)
+```
+```{r}
+num <- c(1.5, 2, 3)
+int <- c(1L, 3L, -2L)
+char <- c("1.5","2","3")
+logi <- c(T,T,F)
+
+typeof(num)
+typeof(int)
+typeof(char)
+typeof(logi)
+```
+```{r}
+class(num)
+class(int)
+class(char)
+class(logi)
+```
+```{r}
+studentId <- c(410773002, 410773015)
+class(studentId)
+as.character(studentId)
+```
 
 
