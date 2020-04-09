@@ -3,14 +3,21 @@
 
 https://cran.rstudio.com/bin/windows/Rtools/
 "
-"2","also installing the dependencies ¡¥sys¡¦, ¡¥askpass¡¦, ¡¥rematch¡¦, ¡¥fs¡¦, ¡¥withr¡¦, ¡¥uuid¡¦, ¡¥openssl¡¦, ¡¥cellranger¡¦, ¡¥curl¡¦, ¡¥gargle¡¦, ¡¥googledrive¡¦, ¡¥httr¡¦, ¡¥rematch2¡¦
+"2","å˜—è©¦ URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/googlesheets4_0.1.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 180885 bytes (176 KB)
+"
+"2","downloaded 176 KB
 
+"
+"1","package â€˜googlesheets4â€™ successfully unpacked and MD5 sums checked
 "
 "1","
 "
 "1",""
-"1","  There is a binary version available but the source
-  version is later"
+"1","The downloaded binary packages are in
+	C:\Users\admin\AppData\Local\Temp\RtmpQhdber\downloaded_packages"
 "1",""
-"1",":
+"1","
 "
