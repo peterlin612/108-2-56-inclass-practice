@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586853281987.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "953950561",
+    "id" : "6ACB356D",
+    "lastKnownWriteTime" : 1586853588,
+    "last_content_update" : 1586853589016,
+    "path" : "~/GitHub/108-2-56-inclass-practice/410773003  R作業.Rmd",
+    "project_path" : "410773003  R作業.Rmd",
+    "properties" : {
+        "cursorPosition" : "235,2",
+        "last_setup_crc32" : "BA4602556e85358a",
+        "scrollLine" : "189"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
