@@ -53,7 +53,6 @@ fromJSON("https://www.dropbox.com/s/uday7x99k9q9sxm/course.json?dl=1", simplifyD
 course$course -> course_layer1
 course_layer1[[4]] -> time_place
 time_place
-course$course[[4]]
 ```
 
 ### 2.2 特定物件改寫
@@ -178,6 +177,7 @@ Mimikyu[[1]][[5]] <- c("ghost","fairy")
 Mimikyu[[1]][[6]] <- c("FEINT_ATTACK","POUND")
 Mimikyu[[1]][[7]] <- c("BODY_SLAM","DAZZLING_GLEAM","DISARMING_VOICE","GYRO_BALL","PLAY_ROUGH")
 Mimikyu[[1]][[8]] <- c("BODY_SLAM","PLAY_ROUGH")
+Mimikyu
 ```
 
 # 恭喜你寫完了!最後記得回去檢查注意事項有沒有都做到，避免被白扣分喔~

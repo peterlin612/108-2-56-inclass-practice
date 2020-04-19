@@ -50,10 +50,9 @@ fromJSON("https://www.dropbox.com/s/uday7x99k9q9sxm/course.json?dl=1", simplifyD
 請取出course中time_place的資料儲存到叫做time_place的list物件。
 ```{r ans21}
 # time_place
-get1 <- course[2]
-get1$course -> get1_layer2
-time_place <- get1_layer2[[4]]
-print(time_place)
+course$course -> course_layer1
+course_layer1[[4]] -> time_place
+time_place
 ```
 
 ### 2.2 特定物件改寫
@@ -82,7 +81,8 @@ str(course_update)
 ```{r ans23}
 # course_update2
 course_update2 <- course_update
-course_update2[[2]][[5]] <- list(teacher="紀檜學")
+course_update2[[2]][["teacher"]] <- "紀學檜"
+str(course_update2)
 ```
 
 ## 3 「應用題」一起成為神奇寶貝大師(或者洛托姆)吧!
@@ -168,6 +168,16 @@ str(Jigglypuff)
 注意Mimikyu的各種資料格式都應該要跟Pikachu、Jigglypuff他們一樣喔。
 ```{r ans34}
 # Gamemaster
+Mimikyu <- Pikachu
+Gamemaster[[1]][[778]] <- Mimikyu
+Mimikyu[[1]][[1]] <- 778L
+Mimikyu[[1]][[2]] <- 'Mimikyu'
+Mimikyu[[1]][[3]] <- 'mimikyu'
+Mimikyu[[1]][[5]] <- c("ghost","fairy")
+Mimikyu[[1]][[6]] <- c("FEINT_ATTACK","POUND")
+Mimikyu[[1]][[7]] <- c("BODY_SLAM","DAZZLING_GLEAM","DISARMING_VOICE","GYRO_BALL","PLAY_ROUGH")
+Mimikyu[[1]][[8]] <- c("BODY_SLAM","PLAY_ROUGH")
+Mimikyu
 ```
 
 # 恭喜你寫完了!最後記得回去檢查注意事項有沒有都做到，避免被白扣分喔~
