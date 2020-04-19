@@ -5,7 +5,7 @@
     "dirty" : false,
     "encoding" : "",
     "folds" : "",
-    "hash" : "3566690611",
+    "hash" : "0",
     "id" : "FBF25CAD",
     "lastKnownWriteTime" : 1788589787000,
     "last_content_update" : 1587287750679,
@@ -13,8 +13,8 @@
     "project_path" : null,
     "properties" : {
         "cursorPosition" : "33,10",
-        "last_setup_crc32" : "AD504AF7bb338d19",
-        "scrollLine" : "12",
+        "last_setup_crc32" : "",
+        "scrollLine" : "10",
         "tempName" : "Untitled1"
     },
     "read_only" : false,
