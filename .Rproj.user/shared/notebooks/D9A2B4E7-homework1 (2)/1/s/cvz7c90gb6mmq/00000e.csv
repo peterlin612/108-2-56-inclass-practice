@@ -1,0 +1,7 @@
+"0","# accidents"
+"0","library(jsonlite)"
+"0","fromJSON(""data.gov.tw/dataset/26722"")"
+"2","錯誤: lexical error: invalid char in json text.
+                                       data.gov.tw/dataset/26722
+                     (right here) ------^
+"

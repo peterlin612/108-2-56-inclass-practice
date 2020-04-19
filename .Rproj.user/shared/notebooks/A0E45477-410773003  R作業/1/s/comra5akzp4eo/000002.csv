@@ -1,0 +1,4 @@
+"0","# levels_fiveReceipts"
+"0","levels_fiveReceipts=levels(fiveReceipts)"
+"2","Error in levels(fiveReceipts) : 找不到物件 'fiveReceipts'
+"

@@ -54,9 +54,8 @@ oslo_time <- "18.11.2018 15:33:02"
 其中taiwan_time為台灣時間，oslo_time為挪威Oslo時間。請將兩個時間存在一個atomic vector叫two_times的物件裡，且為Date/Time class（即POSIXct POSIXt class）。
 
 ```{r ans22}
-# two_times
-`atomic vector` <- c(taiwan_time,oslo_time)
-print(`atomic vector`)
+# two_times 
+
 ```
 
 ### 2.3
@@ -88,6 +87,8 @@ List of 2
 
 ```{r ans31}
 # course
+`course` <- list(`approve`=T,`course_info`=list(`coursename`="會計學",`type`="必",`credits`=3,`time_place`=list(list(weekday="星期三",time_slots=c(7,8,9),classroom="商2F05"))))
+str(`course`)
 ```
 
 ### 3.2
@@ -100,6 +101,8 @@ List of 2
 
 ```{r ans32}
 # courseUpdate
+`courseUpdate` <- list(`approve`=T,`course_info`=list(`coursename`="會計學",`type`="必",`credits`=3,`time_place`=list(list(classroom="商2F05",list(weekday="星期三",time_slots=c(7,8)),list(weekday="星期二",time_slots="5")))))
+str(`courseUpdate`)
 ```
 
 ### 3.3
@@ -128,6 +131,7 @@ List of 2
 可用str(accidents)來檢查你的答案是否有符合格式。
 ```{r ans33}
 # accidents
+
 ```
 
 
@@ -145,6 +149,7 @@ fiveReceipts <- .randomReceipts(n=5)
 
 ```{r ans41}
 # levels_fiveReceipts
+
 ```
 ### 4.2
 使用as.integer()函數來顯示fiveReceipts在電腦的存法，並把回傳的結果值存在storage_fiveReceipts. 
