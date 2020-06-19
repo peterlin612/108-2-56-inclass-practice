@@ -1,0 +1,8 @@
+"0","# surface_cube"
+"0","surface_cube <- function(l, w, t){"
+"0","  l*w*2 + l*t*2 + w*t*2}"
+"0","surface_cube(20,10,15)"
+"1","[1]"
+"1"," 1300"
+"1","
+"

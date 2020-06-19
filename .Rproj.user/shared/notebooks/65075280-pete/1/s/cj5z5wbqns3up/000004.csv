@@ -1,0 +1,7 @@
+"0","from_tp <- example$residence ==c(""Taipei"",""New Taipei"")"
+"0","example$name[from_tp]"
+"1","[1]"
+"1"," ""小明"""
+"1"," ""小花"""
+"1","
+"

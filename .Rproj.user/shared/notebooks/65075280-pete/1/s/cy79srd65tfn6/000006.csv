@@ -1,0 +1,7 @@
+"0","love_food <- str_detect(example$hobby,""美食"")"
+"0","example$name[love_food]"
+"1","[1]"
+"1"," ""小明"""
+"1"," ""小新"""
+"1","
+"

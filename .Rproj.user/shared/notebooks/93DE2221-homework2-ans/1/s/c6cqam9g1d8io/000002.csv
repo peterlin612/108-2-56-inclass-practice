@@ -1,0 +1,5 @@
+"0","course -> course_update"
+"0","course_update$course$type <- ""選"""
+"0","as.logical(course_update$approve) -> course_update$approve"
+"0",""
+"0","# course_update"

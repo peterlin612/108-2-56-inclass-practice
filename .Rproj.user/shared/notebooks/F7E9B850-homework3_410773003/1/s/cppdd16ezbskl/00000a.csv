@@ -1,0 +1,4 @@
+"0","fromJSON(""https://data.ntpc.gov.tw/od/data/api/CB6C96C8-D514-42EA-8591-0F4447E79C91?$format=json"") -> badEmployers"
+"2","Error in open.connection(con, ""rb"") : 
+  schannel: next InitializeSecurityContext failed: SEC_E_CERT_EXPIRED (0x80090328) - 接收到的憑證已經到期。
+"

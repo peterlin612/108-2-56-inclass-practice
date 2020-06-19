@@ -1,0 +1,3 @@
+"0","pattern <- paste0(""段(兄|兄弟)"",back_regex)"
+"2","Error in paste0(""段(兄|兄弟)"", back_regex) : 找不到物件 'back_regex'
+"

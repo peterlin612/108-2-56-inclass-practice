@@ -1,0 +1,4 @@
+"0","two_times <- c("
+"0","  ymd_hms(taiwan_time, tz=""Asia/Taipei""), "
+"0","  dmy_hms(oslo_time, tz=""Europe/Oslo""))"
+"0","# two_times"

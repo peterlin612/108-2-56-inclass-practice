@@ -1,0 +1,7 @@
+"0","pick_above170 <- example$height >=170"
+"0","pick_bloodB <- example$bloodType ==""B"""
+"0","example$name[pick_above170&!pick_bloodB]"
+"1","[1]"
+"1"," ""小明"""
+"1","
+"

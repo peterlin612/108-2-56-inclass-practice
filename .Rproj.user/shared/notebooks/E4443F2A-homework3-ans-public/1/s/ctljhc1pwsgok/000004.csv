@@ -1,0 +1,4 @@
+"0","pick_ntpu <- str_detect(as.character(students10$志願),""北大"")"
+"0","students10$姓名[pick_ntpu] -> ntpu_namelist"
+"0",""
+"0","# ntpu_namelist"
