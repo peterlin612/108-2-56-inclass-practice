@@ -1,0 +1,2 @@
+"0","my_regex <- paste0(string1,string2,string3,string4)"
+"0","str_view_all(addresses,my_regex)"

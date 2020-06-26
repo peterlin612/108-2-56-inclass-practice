@@ -1,0 +1,7 @@
+"0","taller_than_170 <- example$height>= 170"
+"0","pick_blood <- example$bloodType == ""A"""
+"0","example$name[taller_than_170 & pick_blood]"
+"1","[1]"
+"1"," ""小明"""
+"1","
+"
