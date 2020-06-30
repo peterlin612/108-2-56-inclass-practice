@@ -1,0 +1,7 @@
+"0","grade <- sample(1:100, 10, replace=T)"
+"0",""
+"0",""
+"0","  cut(c(-1,69,79,89,100)) -> grade"
+"2","Error in cut.default(c(-1, 69, 79, 89, 100)) : 
+  缺少引數 ""breaks""，也沒有預設值
+"

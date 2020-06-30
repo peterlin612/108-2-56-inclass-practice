@@ -1,0 +1,8 @@
+"0","threeHeigths <- c(Gary=178, John=182, Cam=175)"
+"0","sort(threeHeigths,decreasing = T) %>%"
+"0","  names(.)%>%"
+"0","  .[[1]]"
+"1","[1]"
+"1"," ""John"""
+"1","
+"

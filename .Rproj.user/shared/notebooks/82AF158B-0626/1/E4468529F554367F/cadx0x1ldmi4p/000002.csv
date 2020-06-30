@@ -1,0 +1,6 @@
+"0","my_money <- 10"
+"0","my_coin <- 1"
+"0","my_total_money <- function(m){"
+"0","  m_m <- my_money*m+my_coin"
+"0","return(m_m)"
+"0","}"
